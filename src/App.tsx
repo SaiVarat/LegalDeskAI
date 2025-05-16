@@ -9,6 +9,9 @@ import CatalogServices from "./components/CatalogServices";
 import IntegrationServices from "./components/IntegrationServices";
 import Pricing from "./components/Pricing";
 import AboutUs from "./components/AboutUs";
+import { Register } from "./components/Register";
+import { Login } from "./components/Login";
+import RedirectIfLoggedIn from "./routes/RedirectIfLoggedIn";
 
 const App: React.FC = () => (
   <Router>
@@ -25,6 +28,23 @@ const App: React.FC = () => (
           />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/about-us" element={<AboutUs />} />
+
+          <Route
+            path="/register"
+            element={
+              <RedirectIfLoggedIn>
+                <Register />
+              </RedirectIfLoggedIn>
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <RedirectIfLoggedIn>
+                <Login />
+              </RedirectIfLoggedIn>
+            }
+          />
         </Routes>
       </div>
       <Footer />
