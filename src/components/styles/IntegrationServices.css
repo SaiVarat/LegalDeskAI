@@ -1,0 +1,12 @@
+.integration-page {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.integration-hero {
+  background: url("../../../public/images/services.jpeg") center center / cover
+    no-repeat;
+  padding: 4rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  text-align: center;
+}

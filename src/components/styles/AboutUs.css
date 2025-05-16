@@ -1,0 +1,20 @@
+/* src/components/styles/AboutUs.css */
+
+.about-page {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.about-hero {
+  background: url("../../../public/images/services.jpeg") center center / cover
+    no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.form-card {
+  max-width: 600px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

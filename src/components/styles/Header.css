@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+
+.custom-navbar {
+  background-color: #ffffff;
+  height: 65px;
+}
+
+.nav-link-custom {
+  font-weight: 500;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.nav-link-custom:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.nav-link-custom.active {
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+
+.custom-navbar .btn {
+  border: 1.5px solid #000;
+  font-weight: 600;
+  font-size: 0.9rem;
+}

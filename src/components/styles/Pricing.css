@@ -1,0 +1,58 @@
+/* src/components/styles/Pricing.css */
+
+.pricing-page {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.pricing-hero {
+  background: url("../../../public/images/services.jpeg") center center / cover
+    no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.plan-types-sidebar {
+  /* background-color: #f8f9fa; */
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}
+
+.plan-types-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.plan-types-list .list-group-item {
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.plan-types-list .list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.plan-types-list .list-group-item.active {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+}
+
+/* Cards */
+.pricing-card-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 180px;
+}
